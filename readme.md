@@ -29,16 +29,16 @@ sudo docker run -e ADV_HOST=127.0.0.1 -e EULA="https://dl.lenses.stream/d/?id={K
 d. You can access the kafka topic for this example at http://localhost:3030/#/topics/kafka-local-example-topic
 (credtials you would have got in email - admin/admin)
 
-# 2. Start the spring boot app
+### 2. Start the spring boot app
 a. Start the spring boot app from IDE 
    OR go to poc-kafka-websocket folder execute mvn spring-boot:run
 
 b. Access http://localhost:8080/ws in browser, click connect button.
 
-# 3. Make a post call to add a message in the kafk topic 'kafka-local-example-topic'
+### 3. Make a post call to add a message in the kafk topic 'kafka-local-example-topic'
 
 Make a post call to http://localhost:8080/message/send , Headers -> content type - application/json, body -> {"message":"messageNew"}
 Look at the KafkaController to know how to post the data.
 
-# 4. In the browser (http://localhost:8080/ws) you should be able to see the new message 'messageNew'
+### 4. In the browser (http://localhost:8080/ws) you should be able to see the new message 'messageNew'
 Repeat step3 or posting more new messages to immediately websocketing it in the browser.
