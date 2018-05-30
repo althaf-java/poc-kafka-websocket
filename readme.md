@@ -3,7 +3,7 @@
 This is a sample code for Websocket using SockJs with Kafka, Spring boot and MVC.
 This an example to post a message into the kafka topic AND websocket it to the user accessing the application.
 
-# 1. Start a Kafka instance at localhost:9092
+### 1. Start a Kafka instance at localhost:9092
 
 ####  You can start a kafka instance by any method. 
 
