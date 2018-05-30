@@ -1,3 +1,5 @@
+# Spring Boot Kafka Websocket
+
 This is a sample code for Websocket using SockJs with Kafka, Spring boot and MVC.
 This an example to post a message into the kafka topic AND websocket it to the user accessing the application.
 
