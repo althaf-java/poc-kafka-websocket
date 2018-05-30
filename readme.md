@@ -24,7 +24,7 @@ c. Enter your email id in this page.
 d. Lenses will send you an email with the below content. Run that command and Kafka is ready with the GUI.
 
 sudo docker pull landoop/kafka-lenses-dev
-sudo docker run -e ADV_HOST=127.0.0.1 -e EULA="https://dl.lenses.stream/d/?id=<<KEY you got from email>>" --rm -p 3030:3030 -p 9092:9092 -p 2181:2181 -p 8081:8081 -p 9581:9581 -p 9582:9582 -p 9584:9584 -p 9585:9585 landoop/kafka-lenses-dev
+sudo docker run -e ADV_HOST=127.0.0.1 -e EULA="https://dl.lenses.stream/d/?id={### KEY you got from email}" --rm -p 3030:3030 -p 9092:9092 -p 2181:2181 -p 8081:8081 -p 9581:9581 -p 9582:9582 -p 9584:9584 -p 9585:9585 landoop/kafka-lenses-dev
 
 d. You can access the kafka topic for this example at http://localhost:3030/#/topics/kafka-local-example-topic
 (credtials you would have got in email - admin/admin)
