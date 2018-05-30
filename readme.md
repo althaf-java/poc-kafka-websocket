@@ -9,7 +9,7 @@ This an example to post a message into the kafka topic AND websocket it to the u
 
 OR
 
-I have provided you two docker methods, you can follow either of them.
+I have provided you two ways of starting a docker contianer for kafka, you can follow either of them.
 ####  Docker Kafka instance without GUI.
 Install Docker
 
