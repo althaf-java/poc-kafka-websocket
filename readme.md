@@ -18,10 +18,10 @@ sudo docker run -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=localhost --env 
 OR
 
 ####  Docker Kafka instance with a GUI.
-a.Install Docker
-b. http://www.landoop.com/downloads/lenses/ 
-c. Enter your email id in this page.
-d. Lenses will send you an email with the below content. Run that command and Kafka is ready with the GUI.
+##### a. Install Docker
+##### b. http://www.landoop.com/downloads/lenses/ 
+##### c. Enter your email id in this page.
+##### d. Lenses will send you an email with the below content. Run that command and Kafka is ready with the GUI.
 
 sudo docker pull landoop/kafka-lenses-dev
 sudo docker run -e ADV_HOST=127.0.0.1 -e EULA="https://dl.lenses.stream/d/?id={KEY you got from email}" --rm -p 3030:3030 -p 9092:9092 -p 2181:2181 -p 8081:8081 -p 9581:9581 -p 9582:9582 -p 9584:9584 -p 9585:9585 landoop/kafka-lenses-dev
